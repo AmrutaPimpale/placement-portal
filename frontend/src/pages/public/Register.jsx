@@ -13,10 +13,10 @@ const Register = () => {
 
   const { register, handleSubmit, formState: { errors } } = useForm({
     defaultValues: {
-      name: 'Rahul Kumar',
-      email: 'student@gmail.com',
-      password: 'Student123',
-      cgpa: 9.00
+      name: '',
+      email: '',
+      password: '',
+      cgpa: ''
     }
   });
 
